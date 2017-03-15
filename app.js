@@ -9,4 +9,6 @@ app.use(function(request, response) {
   response.end("Hello, world!");
 });
 
-http.createServer(app).listen(3000);
+var server = http.createServer(app).listen(3000);
+
+module.exports = server;

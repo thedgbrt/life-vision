@@ -3,9 +3,14 @@
   "author": "Dagobert Renouf",
   "private": true,
   "scripts": {
-    "start": "node app"
+    "start": "node app",
+    "test": "jest"
   },
   "dependencies": {
     "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2",
+    "supertest": "^3.0.0"
   }
 }
