@@ -1,0 +1,11 @@
+{
+  "name": "life-vision",
+  "author": "Dagobert Renouf",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
