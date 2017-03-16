@@ -1,3 +1,9 @@
+# CI
+circle.yml
+
+# Editor
+settings.json
+
 # Logs
 logs
 *.log

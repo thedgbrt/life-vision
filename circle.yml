@@ -1,0 +1,12 @@
+machine:
+  node:
+    version: 7.4.0
+dependencies:
+  pre:
+    - npm install -g now
+deployment:
+  production:
+    branch: master
+    commands:
+      - now --token=$NOW_TOKEN
+      - now alias --token=$NOW_TOKEN
